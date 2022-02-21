@@ -8,7 +8,7 @@ namespace TicTacToeGame
 {
     public class TicTacToe
     {
-        public void CreateBoard()
+        public static void CreateBoard()
         {
             char[] board = new char[10];
             for (int i = 1; i < board.Length; i++)
