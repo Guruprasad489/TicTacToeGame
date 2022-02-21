@@ -20,7 +20,7 @@ namespace TicTacToeGame
 
         public static void PlayerInput()
         {
-            Console.WriteLine("Enter your input to Play");
+            Console.WriteLine("Enter your input between 'O' and 'X' to Play");
             player = Convert.ToChar(Console.ReadLine().ToUpper());
             switch (player)
             {
